@@ -595,7 +595,7 @@ a.footer-webstudio {
   color: var(--accent-color);
   /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
-address {
+.address {
   display: flex;
 }
 .adress-footer {
@@ -648,6 +648,45 @@ address {
   margin-left: 70px;
   /* display: inline-block; */
 }
+ .footer-email {
+  margin: auto;
+  width: auto;
+  height: auto;
+  position: relative;
+}
+ .footer-label {
+  color: var(--button-text-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.footer-input {
+/* position: absolute; */
+width: 358px;
+height: 50px;
+left: 815px;
+top: 2784px;
+background-color:var(--hero-color);
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+outline-style: none;
+color:var(--button-text-color);
+padding-left: 16px;
+display: block;
+}
+.button-modal {
+  
+}
+
   
     
       /* portfolio.html */
@@ -932,7 +971,6 @@ address {
       align-items: center;
       justify-content: center;
       text-align: center;
-      opacity: 0;
      }
 .button-modal {
   display: flex;
@@ -973,4 +1011,17 @@ address {
 .check-icon:hover {
   fill: var(--accent-color);
   opacity: 1;
+}
+.icon-submit {
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%);
+  padding-left: 51px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.icon-submit:hover {
+  fill: #000000;
 }
