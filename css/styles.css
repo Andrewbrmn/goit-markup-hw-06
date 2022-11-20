@@ -21,6 +21,7 @@
         padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
+        position: relative;
         
     
       }
@@ -652,7 +653,8 @@ a.footer-webstudio {
   margin: auto;
   width: auto;
   height: auto;
-  position: relative;
+  /* position: relative; */
+  display: block;
 }
  .footer-label {
   color: var(--button-text-color);
@@ -666,9 +668,10 @@ a.footer-webstudio {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* position: absolute; */
 
 }
-.footer-input {
+ .footer-input {
 /* position: absolute; */
 width: 358px;
 height: 50px;
@@ -681,10 +684,30 @@ border-radius: 4px;
 outline-style: none;
 color:var(--button-text-color);
 padding-left: 16px;
-display: block;
+display: flex;
 }
-.button-modal {
-  
+.footer-button {
+width: 200px;
+height: 50px;
+background-color: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+color: var(--button-text-color);
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+padding-left: 28px;
+/* position: absolute ; */
+}
+.icon-send {
+  fill:var(--button-text-color);
+  padding-right: 10px;
 }
 
   
