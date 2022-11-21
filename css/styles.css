@@ -653,7 +653,7 @@ a.footer-webstudio {
   margin: auto;
   width: auto;
   height: auto;
-  /* position: relative; */
+  position: relative;
   display: block;
 }
  .footer-label {
@@ -666,7 +666,7 @@ a.footer-webstudio {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: flex;
-  justify-content: center;
+  padding-bottom: 20px;
   align-items: center;
   /* position: absolute; */
 
@@ -675,8 +675,6 @@ a.footer-webstudio {
 /* position: absolute; */
 width: 358px;
 height: 50px;
-left: 815px;
-top: 2784px;
 background-color:var(--hero-color);
 border: 1px solid rgba(255, 255, 255, 0.3);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -703,7 +701,7 @@ font-weight: 700;
 font-size: 16px;
 line-height: 30px;
 padding-left: 28px;
-/* position: absolute ; */
+/* position: absolute; */
 }
 .icon-send {
   fill:var(--button-text-color);
