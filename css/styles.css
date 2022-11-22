@@ -681,10 +681,8 @@ color:var(--button-text-color);
 padding-left: 16px;
 display: flex;
 }
-.button-footer {
-display: flex;
-justify-content: flex-end;
-margin-left: auto;
+.form-footer {
+  display: flex;
 }
 .footer-button {
 width: 200px;
@@ -704,6 +702,7 @@ font-weight: 700;
 font-size: 16px;
 line-height: 30px;
 padding-left: 28px;
+margin-left: 12px;
 }
 
 .icon-send {
@@ -976,6 +975,8 @@ padding-left: 28px;
      }
      .check-line {
       margin: 10px 0;
+      padding-left: 20px;
+
      }
     
      .checkbox-agree {
@@ -987,6 +988,7 @@ padding-left: 28px;
      .checkbox-agree::before {
       content: '';
       display: flex;
+      align-items: center;
       width: 16px;
       height: 15px;
       border: 2px solid var(--secondary-text-color);
