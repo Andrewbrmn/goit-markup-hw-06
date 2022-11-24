@@ -931,7 +931,6 @@ border: none;
       display: block;
       transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-      
      }
 
      .input-reg {
@@ -1041,11 +1040,11 @@ border: none;
   background-color: var(--accent-color);
   border-radius: 4px;
 }
- .input-wrapper:hover {
+ .input-wrapper:hover .input-reg {
   fill: var(--accent-color);
   border-color: var(--accent-color);
  }
-.input-line:hover {
+.input-line:hover .form-icons{
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
